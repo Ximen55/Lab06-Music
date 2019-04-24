@@ -1,0 +1,1528 @@
+CHECK POINT 1
+#define PIN 11
+#define B2 123
+/*才-3*/
+#define C3 131
+#define D3 147
+#define E3 165
+#define F3 175
+#define G3 196
+#define A3 220
+#define B3 247
+/*才-4*/
+#define C4 262
+#define D4 294
+#define E4 330
+#define F4 349
+#define G4 392
+#define A4 440
+#define B4 494
+/*才-5*/
+#define C5 523
+#define D5 587
+#define E5 659
+#define F5 698
+#define G5 784
+#define A5 880
+#define B5 988
+/*才-6*/
+#define C6 1046
+#define D6 1175
+#define E6 1318
+#define F6 1397
+#define G6 1568
+#define A6 1760
+#define B6 1976
+/*才ど*/
+#define Bb2 116
+#define Db3 139
+#define Eb3 156
+#define Gb3 185
+#define Ab3 208
+#define Bb3 233
+#define C4(middle) 261
+#define Db4 277
+#define Ab4 415
+#define Bb4 466
+#define Db5 554
+#define Eb5 622
+#define Gb5 740
+#define Ab5 831
+#define Db6 1109
+
+void setup() {
+
+  pinMode(PIN, OUTPUT);
+
+}
+
+void loop()
+{
+  /*DOEH DEH DEH AH DAH DOOEH DOO AH*/
+
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 250);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, B3, 125);
+  delay(125);
+  tone(PIN, B3, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, B3, 125);
+  delay(125);
+  tone(PIN, B3, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+
+  /*DOEH DEH DEH AH DAH DOOEH DOO AH (INTENSIFIES)*/
+
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(325);
+  tone(PIN, Ab5, 125);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, C5, 125);
+  delay(125);
+  tone(PIN, C5, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(325);
+  tone(PIN, Ab5, 125);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, B4, 125);
+  delay(125);
+  tone(PIN, B4, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(325);
+  tone(PIN, Ab5, 125);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, Bb4, 125);
+  delay(125);
+  tone(PIN, Bb4, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(325);
+  tone(PIN, Ab5, 125);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(325);
+  tone(PIN, Ab5, 125);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, C5, 125);
+  delay(125);
+  tone(PIN, C5, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(325);
+  tone(PIN, Ab5, 125);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, B4, 125);
+  delay(125);
+  tone(PIN, B4, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(325);
+  tone(PIN, Ab5, 125);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, Bb4, 125);
+  delay(125);
+  tone(PIN, Bb4, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(325);
+  tone(PIN, Ab5, 125);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+
+  /*DU DU DUDU DU DU DU*/
+
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, D5, 625);
+  delay(625);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, Ab5, 250);
+  delay(250);
+  tone(PIN, G5, 42);
+  delay(42);
+  tone(PIN, Ab5, 42);
+  delay(42);
+  tone(PIN, G5, 42);
+  delay(42);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(375);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, Ab5, 125);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(250);
+  tone(PIN, C6, 250);
+  delay(250);
+  tone(PIN, A5, 375);
+  delay(375);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, D6, 125);
+  delay(125);
+  tone(PIN, A5, 125);
+  delay(125);
+  tone(PIN, D6, 125);
+  delay(125);
+  tone(PIN, C6, 625);
+  delay(625);
+  tone(PIN, G6, 500);
+  delay(500);
+
+  /*DU DU DUDU DU DU DUU (INTENSIFIES)*/
+
+  tone(PIN, A5, 250);
+  delay(250);
+  tone(PIN, A5, 125);
+  delay(125);
+  tone(PIN, A5, 125);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, G5, 625);
+  delay(625);
+  tone(PIN, A5, 250);
+  delay(250);
+  tone(PIN, A5, 125);
+  delay(125);
+  tone(PIN, A5, 125);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(250);
+  tone(PIN, G5, 125);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(250);
+  tone(PIN, D6, 125);
+  delay(250);
+  tone(PIN, A5, 125);
+  delay(125);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, C6, 250);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, E5, 250);
+  delay(250);
+  tone(PIN, Bb4, 250);
+  delay(250);
+  tone(PIN, C5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, C6, 1125);
+  delay(2125);
+
+  /*Epic part*/
+
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, Ab5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, Ab5, 63);
+  delay(63);
+  tone(PIN, G5, 63);
+  delay(63);
+  tone(PIN, F5, 63);
+  delay(63);
+  tone(PIN, D5, 63);
+  delay(63);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, G5, 1125);
+  delay(1125);
+  tone(PIN, Ab5, 250);
+  delay(250);
+  tone(PIN, A5, 125);
+  delay(125);
+  tone(PIN, C6, 250);
+  delay(250);
+  tone(PIN, A5, 125);
+  delay(125);
+  tone(PIN, Ab5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, E5, 125);
+  delay(125);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(250);
+  tone(PIN, C6, 250);
+  delay(250);
+  tone(PIN, Db6, 250);
+  delay(250);
+  tone(PIN, Ab5, 250);
+  delay(250);
+  tone(PIN, Ab5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 1125);
+  delay(1125);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, A4, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, E5, 500);
+  delay(500);
+  tone(PIN, D5, 500);
+  delay(500);
+  tone(PIN, E5, 500);
+  delay(500);
+  tone(PIN, F5, 500);
+  delay(500);
+  tone(PIN, G5, 500);
+  delay(500);
+  tone(PIN, E5, 500);
+  delay(500);
+  tone(PIN, A5, 1000);
+  delay(1000);
+  tone(PIN, A5, 125);
+  delay(125);
+  tone(PIN, Ab5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, Gb5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, E5, 125);
+  delay(125);
+  tone(PIN, Eb5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, Db5, 1000);
+  delay(1000);
+  tone(PIN, Eb5, 1000);
+  delay(2000);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, Ab5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, Ab5, 63);
+  delay(63);
+  tone(PIN, G5, 63);
+  delay(63);
+  tone(PIN, F5, 63);
+  delay(63);
+  tone(PIN, D5, 63);
+  delay(63);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, G5, 1125);
+  delay(1125);
+  tone(PIN, Ab5, 250);
+  delay(250);
+  tone(PIN, A5, 125);
+  delay(125);
+  tone(PIN, C6, 250);
+  delay(250);
+  tone(PIN, A5, 125);
+  delay(125);
+  tone(PIN, Ab5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, E5, 125);
+  delay(125);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, G5, 250);
+  delay(250);
+  tone(PIN, A5, 250);
+  delay(250);
+  tone(PIN, C6, 250);
+  delay(250);
+  tone(PIN, Db6, 250);
+  delay(250);
+  tone(PIN, Ab5, 250);
+  delay(250);
+  tone(PIN, Ab5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, G5, 1125);
+  delay(1125);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, A4, 250);
+  delay(250);
+  tone(PIN, F5, 250);
+  delay(250);
+  tone(PIN, E5, 500);
+  delay(500);
+  tone(PIN, D5, 500);
+  delay(500);
+  tone(PIN, E5, 500);
+  delay(500);
+  tone(PIN, F5, 500);
+  delay(500);
+  tone(PIN, G5, 500);
+  delay(500);
+  tone(PIN, E5, 500);
+  delay(500);
+  tone(PIN, A5, 1000);
+  delay(1000);
+  tone(PIN, A5, 125);
+  delay(125);
+  tone(PIN, Ab5, 125);
+  delay(125);
+  tone(PIN, G5, 125);
+  delay(125);
+  tone(PIN, Gb5, 125);
+  delay(125);
+  tone(PIN, F5, 125);
+  delay(125);
+  tone(PIN, E5, 125);
+  delay(125);
+  tone(PIN, Eb5, 125);
+  delay(125);
+  tone(PIN, D5, 125);
+  delay(125);
+  tone(PIN, Db5, 1000);
+  delay(1000);
+  tone(PIN, Eb5, 1000);
+  delay(1000);
+
+  /*Opera*/
+
+  tone(PIN, Bb3, 1500);
+  delay(1500);
+  tone(PIN, F5, 500);
+  delay(500);
+  tone(PIN, E4, 1000);
+  delay(1000);
+  tone(PIN, D4, 1000);
+  delay(1000);
+  tone(PIN, F4, 4000);
+  delay(4000);
+  tone(PIN, Bb3, 1500);
+  delay(1500);
+  tone(PIN, F5, 500);
+  delay(500);
+  tone(PIN, E4, 1000);
+  delay(1000);
+  tone(PIN, D4, 1000);
+  delay(1000);
+  tone(PIN, D4, 1000);
+  delay(1000);
+  tone(PIN, D4, 83);
+  delay(83);
+  tone(PIN, Db4, 83);
+  delay(83);
+  tone(PIN, C4(middle), 83);
+  delay(83);
+  tone(PIN, B3, 83);
+  delay(83);
+  tone(PIN, Bb3, 83);
+  delay(83);
+  tone(PIN, A3, 83);
+  delay(83);
+  tone(PIN, Ab3, 83);
+  delay(83);
+  tone(PIN, G3, 83);
+  delay(83);
+  tone(PIN, Gb3, 83);
+  delay(83);
+  tone(PIN, F3, 83);
+  delay(83);
+  tone(PIN, E3, 83);
+  delay(83);
+  tone(PIN, Eb3, 83);
+  delay(83);
+  tone(PIN, D3, 2000);
+  delay(2000);
+  tone(PIN, Bb3, 1500);
+  delay(1500);
+  tone(PIN, F5, 500);
+  delay(500);
+  tone(PIN, E4, 1000);
+  delay(1000);
+  tone(PIN, D4, 1000);
+  delay(1000);
+  tone(PIN, F4, 2000);
+  delay(2000);
+  tone(PIN, B2, 125);
+  delay(125);
+  tone(PIN, G3, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, C4(middle), 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, A3, 250);
+  delay(250);
+  tone(PIN, G3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 125);
+  delay(125);
+  tone(PIN, Bb3, 1500);
+  delay(1500);
+  tone(PIN, F5, 500);
+  delay(500);
+  tone(PIN, E4, 1000);
+  delay(1000);
+  tone(PIN, D4, 1000);
+  delay(1000);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, E4, 250);
+  delay(250);
+  tone(PIN, C4(middle), 125);
+  delay(250);
+  tone(PIN, E4, 250);
+  delay(250);
+  tone(PIN, B3, 250);
+  delay(250);
+  tone(PIN, G3, 125);
+  delay(125);
+  tone(PIN, A3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 125);
+  delay(125);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, E4, 250);
+  delay(250);
+  tone(PIN, C4(middle), 125);
+  delay(250);
+  tone(PIN, E4, 250);
+  delay(250);
+  tone(PIN, B3, 250);
+  delay(250);
+  tone(PIN, G3, 125);
+  delay(125);
+  tone(PIN, A3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 125);
+  delay(125);
+
+  /*rock part*/
+
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, Db4, 250);
+  delay(250);
+  tone(PIN, Db4, 250);
+  delay(250);
+  tone(PIN, Db3, 125);
+  delay(125);
+  tone(PIN, Db3, 125);
+  delay(125);
+  tone(PIN, Db3, 125);
+  delay(125);
+  tone(PIN, Db4, 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, B3, 250);
+  delay(250);
+  tone(PIN, B3, 250);
+  delay(250);
+  tone(PIN, B2, 125);
+  delay(125);
+  tone(PIN, B2, 125);
+  delay(125);
+  tone(PIN, B2, 125);
+  delay(125);
+  tone(PIN, B3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, Db4, 250);
+  delay(250);
+  tone(PIN, Db4, 250);
+  delay(250);
+  tone(PIN, Db3, 125);
+  delay(125);
+  tone(PIN, Db3, 125);
+  delay(125);
+  tone(PIN, Db3, 125);
+  delay(125);
+  tone(PIN, Db4, 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, B3, 250);
+  delay(250);
+  tone(PIN, B3, 250);
+  delay(250);
+  tone(PIN, B2, 125);
+  delay(125);
+  tone(PIN, B2, 125);
+  delay(125);
+  tone(PIN, B2, 125);
+  delay(125);
+  tone(PIN, B3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb2, 125);
+  delay(125);
+  tone(PIN, Bb3, 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C3, 125);
+  delay(125);
+  tone(PIN, C4(middle), 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, A3, 125);
+  delay(125);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, F3, 250);
+  delay(250);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, G3, 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, A3, 125);
+  delay(125);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, D4, 250);
+  delay(250);
+  tone(PIN, F3, 250);
+  delay(250);
+  tone(PIN, D3, 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, G3, 125);
+  delay(125);
+
+  /*99999999999999999999999999999999999999999999999999999999999999*/
+
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 250);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, B3, 125);
+  delay(125);
+  tone(PIN, B3, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, Bb3, 62);
+  delay(62);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(125);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, C4(middle), 125);
+  delay(62);
+  tone(PIN, D5, 250);
+  delay(250);
+  tone(PIN, A4, 375);
+  delay(375);
+  tone(PIN, Ab4, 125);
+  delay(250);
+  tone(PIN, G4, 250);
+  delay(250);
+  tone(PIN, F4, 250);
+  delay(250);
+  tone(PIN, D4, 125);
+  delay(125);
+  tone(PIN, F4, 125);
+  delay(125);
+  tone(PIN, G4, 125);
+  delay(4125);
+}
+CHECK POINT 2
+#include <Keypad.h>
+#define PIN 11
+#define C3 131
+#define D3 147
+#define E3 165
+#define F3 175
+#define G3 196
+#define A3 220
+#define B3 247
+/*才-4*/
+#define C4 262
+#define D4 294
+#define E4 330
+#define F4 349
+#define G4 392
+#define A4 440
+#define B4 494
+/*才-5*/
+#define C5 523
+#define D5 587
+const byte ROWS = 4; // 4 Rows
+const byte COLS = 4; // 4 Columns
+// ﹚竡 Keypad 龄
+char keys[ROWS][COLS] = {
+  {'7', '4', '1', '0'}, {'8', '5', '2', 'A'},
+  {'9', '6', '3', 'B'}, {'C', 'D', 'E', 'F'}
+};
+// ﹚竡 Keypad 硈 Arduino 钡竲
+byte rowPins[ROWS] = {5, 4, 3, 2};
+// 硈 Keypad  4  Rows
+byte colPins[COLS] = {10, 9, 8, 7};
+// 硈 Keypad  4  Columns
+// ミ Keypad ン
+Keypad keypad =
+  Keypad( makeKeymap(keys), rowPins,
+          colPins, ROWS, COLS );
+void setup() {
+  pinMode(PIN, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() {
+  char key = keypad.getKey(); // 弄 Keypad块
+  if (key != NO_KEY) {
+    if (key == '0')
+    {
+      tone(PIN, C3);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == '1')
+    {
+      tone(PIN, D3);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == '4')
+    {
+      tone(PIN, E3);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == '7')
+    {
+      tone(PIN, F3);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == 'A')
+    {
+      tone(PIN, G3);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == '2')
+    {
+      tone(PIN, A3);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == '5')
+    {
+      tone(PIN, B3);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == '8')
+    { tone(PIN, C4);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == 'B')
+    { tone(PIN, D4);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == '3')
+    { tone(PIN, E4);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == '6')
+    { tone(PIN, F4);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == '9')
+    { tone(PIN, G4);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == 'F')
+    { tone(PIN, A4);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == 'E')
+    { tone(PIN, B4);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == 'D')
+    { tone(PIN, C5);
+      delay(1000);
+      noTone(PIN);
+    }
+    else if (key == 'C')
+    { tone(PIN, D5);
+      delay(1000);
+      noTone(PIN);
+    }
+    Serial.println(key);
+  }
+}
+CHECK POINT 3
+char *morse[] = {"01", "1000", "1010", "100",
+                 "0", "0010", "110", "0000",
+                 "00", "0111", "101", "0100",
+                 "11", "10", "111", "0110",
+                 "1101", "010", "000", "1",
+                 "001", "0001", "011", "1001", "1011", "1100"
+                };
+#define PIN 11
+char k, con;
+char *ptr;
+
+void setup() {
+  pinMode(PIN, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available())
+  {
+    k = Serial.read();
+    Serial.println(k);
+    if ((k - 'A') >= 0 && (k - 'Z') <= 0)
+    { con = k - 'A';
+      ptr = morse[con];
+
+      while (*ptr != '\0')
+      {
+        if (*ptr == '0')
+        {
+          tone(PIN, 440, 100);
+          delay(100);
+
+        }
+        else
+        {
+          tone(PIN, 440, 300);
+          delay(300);
+
+        }
+        ptr++;
+
+        delay(100);
+
+      }
+    }
+  }
+}
